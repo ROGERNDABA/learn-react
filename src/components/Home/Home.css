@@ -1,36 +1,37 @@
 .homeContainer {
-  /* background-color: blue; */
-  width: 500px;
-  margin: 0 auto;
-  text-align: center;
+    /* background-color: blue; */
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .profileImage {
-  height: 360px;
-  background-color: #0003;
-  border-radius: 4px;
+    height: 360px;
+    background-color: #0003;
+    border-radius: 4px;
 }
 
 .ImageContainer {
-  display: inline-block;
-  background-color: white;
-  border: 5px solid white;
-  -moz-box-shadow: 2px 2px 4px 4px #670ea2;
-  -webkit-box-shadow: 2px 2px 4px 4px #670ea2;
-  box-shadow: 2px 2px 4px 4px #670ea2;
-  border-radius: 4px;
+    display: inline-block;
+    background-color: white;
+    border: 5px solid white;
+    -moz-box-shadow: 2px 2px 4px 4px #670ea2;
+    -webkit-box-shadow: 2px 2px 4px 4px #670ea2;
+    box-shadow: 2px 2px 4px 4px #670ea2;
+    border-radius: 4px;
 }
 
 .Quote {
-  padding: 20px;
+    padding: 20px;
+    text-align: left;
 }
 
 @media screen and (max-width: 700px) {
-  .homeContainer {
-    width: 100%;
-  }
+    .homeContainer {
+        width: 100%;
+    }
 
-  .profileImage {
-    height: 300px;
-  }
+    .profileImage {
+        height: 300px;
+    }
 }
