@@ -1,0 +1,40 @@
+.TechStackContainer {
+  text-align: center;
+}
+
+.Heading {
+  font-size: 2em;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container > .logos {
+  background: #464646cb;
+  position: relative;
+  margin: 5px;
+  width: 250px;
+  height: 175px;
+  transition: all 1s;
+}
+.logos img {
+  position: absolute;
+  height: 70%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+}
+
+.logos > img:hover {
+  transform: scale(1.1);
+}
+@media screen and (max-width: 700px) {
+  .Heading {
+    font-size: 1.3em;
+  }
+}

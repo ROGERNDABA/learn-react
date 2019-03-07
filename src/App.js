@@ -72,10 +72,10 @@ class App extends Component {
               <li>
                 <Link
                   className="nav-links active"
-                  to={"/"}
+                  to={"/tech-stack"}
                   onClick={this.toggleActiveNavBar}
                 >
-                  Home
+                  Tech Stack
                 </Link>
               </li>
               <li>
@@ -105,7 +105,6 @@ class App extends Component {
               <Route path="/tech-stack" component={TechStack} />
               <Route path="*" component={Home} />
             </Switch>
-            sfsfsfs
           </div>
         </div>
       </Router>
