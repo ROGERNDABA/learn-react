@@ -1,40 +1,78 @@
 .TechStackContainer {
-  text-align: center;
+    text-align: center;
 }
 
 .Heading {
-  font-size: 2em;
-  color: white;
+    font-size: 2em;
+    color: white;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #9f15fa;
 }
 
 .container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.container > .logos {
-  background: #464646cb;
-  position: relative;
-  margin: 5px;
-  width: 250px;
-  height: 175px;
-  transition: all 1s;
-}
-.logos img {
-  position: absolute;
-  height: 70%;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.logos > img:hover {
-  transform: scale(1.1);
+.container h3 {
+    width: 100%;
 }
+.logos {
+    background: #46464694;
+    position: relative;
+    margin: 5px;
+    width: 250px;
+    height: 175px;
+    transition: all 1s;
+}
+
+.stackName {
+    position: absolute;
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.stackName:hover .logoName {
+    display: table-cell;
+}
+
+.stackName:hover {
+    background-color: rgba(0, 0, 0, 0.89);
+}
+
+.logoName {
+    display: none;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.logos img {
+    position: absolute;
+    height: 70%;
+    z-index: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+.langLink {
+    background-image: url("../../images/link.svg");
+    background-size: 100%;
+}
+
+.stackName:hover .logos > img {
+    transform: scale(1.1);
+}
+
 @media screen and (max-width: 700px) {
-  .Heading {
-    font-size: 1.3em;
-  }
+    .Heading {
+        font-size: 1.3em;
+    }
 }
