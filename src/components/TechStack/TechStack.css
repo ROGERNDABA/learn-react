@@ -1,13 +1,14 @@
 .TechStackContainer {
     text-align: center;
 }
-
 .Heading {
     font-size: 2em;
-    color: white;
     text-decoration: underline;
     text-underline-position: under;
     text-decoration-color: #9f15fa;
+    background: linear-gradient(to right, #fff 0%, #9906fb 120%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .container {
