@@ -1,0 +1,15 @@
+.DocumentBody {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  /* background-color: red; */
+  display: table;
+}
+
+.react-pdf__Document {
+  text-align: center !important;
+}
+
+.react-pdf__Page {
+  text-align: center !important;
+}

@@ -3,7 +3,9 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from "./components/About/About";
 import Home from "./components/Home/Home";
 import TechStack from "./components/TechStack/TechStack";
+import Footer from "./components/Footer/Footer";
 import MenuIcon from "./logo.svg";
+import Documents from "./components/Documents/Documents";
 import "./App.css";
 
 class App extends Component {
@@ -81,10 +83,10 @@ class App extends Component {
               <li>
                 <Link
                   className="nav-links active"
-                  to={"/"}
+                  to={"/documents"}
                   onClick={this.toggleActiveNavBar}
                 >
-                  Home
+                  Documents
                 </Link>
               </li>
               <li>
@@ -103,9 +105,11 @@ class App extends Component {
               <Route exact path="/" component={Home} />
               <Route path="/about" component={About} />
               <Route path="/tech-stack" component={TechStack} />
+              <Route path="/documents" component={Documents} />
               <Route path="*" component={Home} />
             </Switch>
           </div>
+          <Footer />
         </div>
       </Router>
     );
