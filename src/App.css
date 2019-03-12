@@ -1,11 +1,10 @@
 .App {
-  min-height: 100%;
   position: relative;
 }
 
 .BodyContainer {
-  margin-top: 70px;
-  padding-bottom: 150px;
+  padding-top: 70px;
+  padding-bottom: 10px;
 }
 
 .navbar {
@@ -57,15 +56,6 @@
 
 .active {
   display: block;
-}
-
-.Footer {
-  position: absolute;
-  bottom: 0;
-  height: 150px;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.644);
-  /* background: linear-gradient(to right, #000 0%, #9906fb 100%); */
 }
 
 @media screen and (min-width: 700px) {

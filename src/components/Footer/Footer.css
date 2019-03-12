@@ -1,0 +1,49 @@
+.Footer {
+  text-align: center;
+}
+.Footer:not(h3) > * {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.Footer h3 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.FooterLeft,
+.FooterMiddle,
+.FooterRight {
+  position: relative;
+  width: 33%;
+  display: inline-table;
+  color: rgba(255, 255, 255, 0.753);
+}
+.Footer a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.753);
+}
+
+.Footer a:hover {
+  color: #9e15fac7;
+}
+.FooterRight ul {
+  text-align: left;
+  display: table;
+  margin: 0 auto;
+  list-style: none;
+}
+.FooterRight ul li {
+  margin-left: -20px;
+  display: flex;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 700px) {
+  .FooterLeft,
+  .FooterMiddle,
+  .FooterRight {
+    width: auto;
+    display: block;
+  }
+}

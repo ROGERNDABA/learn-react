@@ -1,95 +1,97 @@
 .AboutContainer {
-    width: 700px;
-    margin: 0 auto;
-    text-align: center;
-    /* background-color: red; */
-    display: table;
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  /* background-color: red; */
+  display: table;
 }
 
-.AboutContainer > h1 {
-    color: rgba(255, 255, 255, 0.753);
+.AboutContainer h1 {
+  color: rgba(255, 255, 255, 0.753);
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .AboutContainer > * {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 .Summary {
-    padding: 10px;
-    color: #dfaeff;
+  padding: 10px;
+  color: #dfaeff;
 }
 
 .Info {
-    text-align: center;
-    width: 100%;
+  text-align: center;
+  width: 100%;
 }
 
 .Left,
 .Right {
-    width: 48%;
-    /* margin: 10px; */
+  width: 48%;
+  /* margin: 10px; */
 }
 
 .Left {
-    float: left;
-    /* background-color: aqua; */
+  float: left;
+  /* background-color: aqua; */
 }
 .Right {
-    /* background-color: chartreuse; */
-    float: right;
+  /* background-color: chartreuse; */
+  float: right;
 }
 
 .AboutFields {
-    border-radius: 5px;
-    margin-bottom: 20px;
-    padding: 10px;
-    color: #dfaeff;
-    background-color: rgba(0, 0, 0, 0.52);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  color: #dfaeff;
+  background-color: rgba(0, 0, 0, 0.52);
 }
 
 .AboutFields > * {
-    color: #dfaeff;
+  color: #dfaeff;
 }
 
 .AboutFields > h3 {
-    color: rgb(255, 255, 255, 0.753);
+  color: rgb(255, 255, 255, 0.753);
 }
 
 .AboutFields > h3 {
-    padding-bottom: 5px;
-    margin: 0;
-    text-align: center;
+  padding-bottom: 5px;
+  margin: 0;
+  text-align: center;
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
+  width: 100%;
+  border-collapse: collapse;
 }
 
 td,
 th {
-    border: 2px solid rgb(255, 255, 255);
-    text-align: center;
-    padding: 4px;
-    font-size: 12px;
+  border: 2px solid rgb(255, 255, 255);
+  text-align: center;
+  padding: 4px;
+  font-size: 12px;
 }
 
 .slide-in-left {
-    -webkit-animation: slide-in-top 1s ease-out both;
-    animation: slide-in-top 1s ease-out both;
+  -webkit-animation: slide-in-top 1s ease-out both;
+  animation: slide-in-top 1s ease-out both;
 }
 
 @media screen and (max-width: 750px) {
-    .AboutContainer {
-        width: auto;
-    }
+  .AboutContainer {
+    width: auto;
+  }
 
-    .Left,
-    .Right {
-        width: auto;
-        float: none;
-        padding: 10px;
-    }
+  .Left,
+  .Right {
+    width: auto;
+    float: none;
+    padding: 10px;
+  }
 }
 
 /* ----------------------------------------------
@@ -103,26 +105,26 @@ th {
  * ----------------------------------------
  */
 @-webkit-keyframes slide-in-top {
-    0% {
-        -webkit-transform: translateX(-1000px);
-        transform: translateX(-1000px);
-        opacity: 0;
-    }
-    100% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-        opacity: 1;
-    }
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 @keyframes slide-in-right {
-    0% {
-        -webkit-transform: translateX(-1000px);
-        transform: translateX(-1000px);
-        opacity: 0;
-    }
-    100% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-        opacity: 1;
-    }
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
 }

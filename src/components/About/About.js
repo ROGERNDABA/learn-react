@@ -14,7 +14,10 @@ class About extends Component {
   render() {
     return (
       <div className="AboutContainer">
-        <h1>I am, ROGER MPUMELELO NDABA</h1>
+        <h1>
+          I am
+          <br /> ROGER MPUMELELO NDABA
+        </h1>
         <div className="Summary slide-in-left">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
           ullamcorper lorem et lacus vulputate ultrices. Ut dapibus commodo
@@ -26,7 +29,7 @@ class About extends Component {
           vehicula eget.
         </div>
         <div className="Info">
-          <h2>sdsds</h2>
+          <h1>Personal Information</h1>
           <div className="Left">
             <div className="AboutFields">
               <h3>Birth History:</h3>

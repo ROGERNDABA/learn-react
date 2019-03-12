@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from "./components/About/About";
 import Home from "./components/Home/Home";
 import TechStack from "./components/TechStack/TechStack";
-import Footer from "./components/Footer/Footer";
 import MenuIcon from "./logo.svg";
 import Documents from "./components/Documents/Documents";
 import "./App.css";
@@ -109,7 +108,7 @@ class App extends Component {
               <Route path="*" component={Home} />
             </Switch>
           </div>
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </Router>
     );
