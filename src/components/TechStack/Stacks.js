@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Star from "./star.svg";
 
 class Stack extends Component {
   constructor(props) {
@@ -15,9 +14,7 @@ class Stack extends Component {
             {this.props.name}
             <i>
               {Array.from(Array(this.props.rate), (e, i) => {
-                return (
-                  <img width="20" height="20" key={i} src={Star} alt="star" />
-                );
+                return <img width="20" height="20" key={i} src="/star.svg" alt="star" />;
               })}
             </i>
           </div>
