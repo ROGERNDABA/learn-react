@@ -19,22 +19,18 @@ class About extends Component {
           <br /> ROGER MPUMELELO NDABA
         </h1>
         <div className="Summary slide-in-left">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          ullamcorper lorem et lacus vulputate ultrices. Ut dapibus commodo
-          condimentum. Suspendisse potenti. Etiam condimentum dolor erat, id
-          vestibulum nisi rhoncus quis. In vitae nisi scelerisque, venenatis
-          tortor id, luctus nisi. Quisque sed congue nunc, non ornare mi. Sed
-          vehicula nisl id ex pulvinar aliquet. Aenean accumsan diam ex, ut
-          semper lacus tempus at. Donec aliquam mi leo, accumsan efficitur sem
-          vehicula eget.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper lorem et lacus vulputate
+          ultrices. Ut dapibus commodo condimentum. Suspendisse potenti. Etiam condimentum dolor erat, id vestibulum
+          nisi rhoncus quis. In vitae nisi scelerisque, venenatis tortor id, luctus nisi. Quisque sed congue nunc, non
+          ornare mi. Sed vehicula nisl id ex pulvinar aliquet. Aenean accumsan diam ex, ut semper lacus tempus at. Donec
+          aliquam mi leo, accumsan efficitur sem vehicula eget.
         </div>
         <div className="Info">
           <h1>Personal Information</h1>
           <div className="Left">
             <div className="AboutFields">
               <h3>Birth History:</h3>
-              Born on the 15<sup>th</sup> of March 1999 in a small town of
-              Oshoek in Mpumalanga, South Africa
+              Born on the 15<sup>th</sup> of March 1999 in a small town of Oshoek in Mpumalanga, South Africa
             </div>
             <div className="AboutFields">
               <h3>Language Proficiency:</h3>
@@ -75,6 +71,16 @@ class About extends Component {
                 </tbody>
               </table>
             </div>
+            <div className="AboutFields">
+              <h3>Skills:</h3>
+              <ul>
+                <li>~ Coding (Obviously)</li>
+                <li>~ Piano</li>
+                <li>~ Public Speaking</li>
+                <li>~ Research</li>
+                <li>~ Team Leadership</li>
+              </ul>
+            </div>
           </div>
           <div className="Right">
             <div className="AboutFields">
@@ -96,6 +102,14 @@ class About extends Component {
                 WeThinkCode_ college. <br />
                 Pursuing a certificate in Software Engineering
               </p>
+            </div>
+            <div className="AboutFields">
+              <h3>Hobbies</h3>
+              <ul>
+                <li>* Coding</li>
+                <li>* Gaming</li>
+                <li>* Cooking and Baking</li>
+              </ul>
             </div>
           </div>
         </div>

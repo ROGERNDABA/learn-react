@@ -11,13 +11,8 @@
 }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -53,7 +48,8 @@
 }
 
 .stackName:hover {
-  background-color: #000000e3;
+  background: #000000;
+  opacity: 0.75;
 }
 
 .logoName {

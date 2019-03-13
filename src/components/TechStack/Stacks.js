@@ -14,7 +14,17 @@ class Stack extends Component {
             {this.props.name}
             <i>
               {Array.from(Array(this.props.rate), (e, i) => {
-                return <img width="20" height="20" key={i} src="/star.svg" alt="star" />;
+                return (
+                  <span
+                    key={i}
+                    role="img"
+                    aria-label="starRating"
+                    aria-labelledby="self star rating"
+                    style={{ fontStyle: "normal", fontSize: "initial" }}
+                  >
+                    ⭐
+                  </span>
+                );
               })}
             </i>
           </div>

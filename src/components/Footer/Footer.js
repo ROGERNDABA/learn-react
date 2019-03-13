@@ -12,6 +12,7 @@ class Footer extends Component {
             href="https://www.google.com/maps/place/Tourvest+Destination+Management+-+TDM/@-26.103278,28.048192,15z/data=!4m5!3m4!1s0x0:0x531c58a4a98197c!8m2!3d-26.103278!4d28.048192"
             alt="Tourvest DM"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Roger Ndaba IT
             <br />
@@ -33,16 +34,25 @@ class Footer extends Component {
           <h3>Social</h3>
           <ul>
             <li>
-              <img src="/github.png" width="15" height="15" />
-              &nbsp; Github
+              <img src="/github.png" width="15" height="15" alt="github" />
+              &nbsp;
+              <a href="https://github.com/rogerndaba/" target="_blank" rel="noopener noreferrer">
+                Github
+              </a>
             </li>
             <li>
-              <img src="/linkedin.png" width="15" height="15" />
-              &nbsp; LinkedIn
+              <img src="/linkedin.png" width="15" height="15" alt="linkedin" />
+              &nbsp;
+              <a href="https://www.linkedin.com/in/roger-ndaba-794399136/" target="_blank" rel="noopener noreferrer">
+                LinkedIn
+              </a>
             </li>
             <li>
-              <img src="/twitter.png" width="15" height="15" />
-              &nbsp; Twitter
+              <img src="/twitter.png" width="15" height="15" alt="twitter" />
+              &nbsp;
+              <a href="https://twitter.com/sassy_rog" target="_blank" rel="noopener noreferrer">
+                Twitter
+              </a>
             </li>
           </ul>
         </div>
