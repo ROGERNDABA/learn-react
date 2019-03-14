@@ -11,10 +11,6 @@ class Home extends Component {
     document.title = "Roger's Resume";
   }
 
-  componentWillUnmount() {
-    clearTimeout(this.interval);
-  }
-
   render() {
     return (
       <div className="homeContainer">

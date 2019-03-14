@@ -12,7 +12,6 @@ class Typewriter extends Component {
     this.state = {
       typedText: ""
     };
-
     this.TypewriterFunction = this.TypewriterFunction.bind(this);
   }
 
@@ -22,6 +21,10 @@ class Typewriter extends Component {
     text = text.replace(/\s+/g, " ");
     speed = Number(speed);
     this.TypewriterFunction(index, text, speed);
+  }
+
+  componentWillUnmount() {
+    clearTimeout(this.interval);
   }
 
   TypewriterFunction(index, text, speed) {
@@ -35,7 +38,6 @@ class Typewriter extends Component {
       index++;
     }
   }
-
   render() {
     return <p> {this.state.typedText}</p>;
   }

@@ -9,7 +9,7 @@ class Stack extends Component {
     return (
       <div className="logos">
         <img className="logo" src={this.props.image} alt={this.props.name} />
-        <a href="/" className="stackName">
+        <a href={this.props.link} className="stackName">
           <div className="logoName">
             {this.props.name}
             <i>
@@ -49,6 +49,7 @@ class Stacks extends Component {
           return (
             <Stack
               key={i}
+              link={stack[Object.keys(stack)[2]]}
               rate={stack[Object.keys(stack)[0]]}
               name={Object.keys(stack)[1]}
               image={stack[Object.keys(stack)[1]]}

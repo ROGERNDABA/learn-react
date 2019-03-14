@@ -19,18 +19,16 @@ class About extends Component {
           <br /> ROGER MPUMELELO NDABA
         </h1>
         <div className="Summary slide-in-left">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper lorem et lacus vulputate
-          ultrices. Ut dapibus commodo condimentum. Suspendisse potenti. Etiam condimentum dolor erat, id vestibulum
-          nisi rhoncus quis. In vitae nisi scelerisque, venenatis tortor id, luctus nisi. Quisque sed congue nunc, non
-          ornare mi. Sed vehicula nisl id ex pulvinar aliquet. Aenean accumsan diam ex, ut semper lacus tempus at. Donec
-          aliquam mi leo, accumsan efficitur sem vehicula eget.
+          If I'm allowed to go 3<sup>rd</sup> person... Roger is a very curious individual. The most awesome thing about
+          roger is he gets things done and most importantly, done right. Because he codes, he also turns out to be an
+          insomniac.
         </div>
         <div className="Info">
           <h1>Personal Information</h1>
           <div className="Left">
             <div className="AboutFields">
               <h3>Birth History:</h3>
-              Born on the 15<sup>th</sup> of March 1999 in a small town of Oshoek in Mpumalanga, South Africa
+              Born on the 15<sup>th</sup> of March 1998 in a small town of Oshoek in Mpumalanga, South Africa
             </div>
             <div className="AboutFields">
               <h3>Language Proficiency:</h3>

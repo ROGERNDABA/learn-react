@@ -26,7 +26,6 @@ class App extends Component {
         active: state.winWidth > 700 ? false : state.active
       }));
     });
-    console.log(this.state);
   }
 
   toggleActiveNavBar = () => {
@@ -38,11 +37,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <nav className="navbar">
-            <span
-              className="navbar-toggle"
-              id="js-navbar-toggle"
-              onClick={this.toggleActiveNavBar}
-            >
+            <span className="navbar-toggle" id="js-navbar-toggle" onClick={this.toggleActiveNavBar}>
               <i>
                 <img src={MenuIcon} alt="" height="20" />
               </i>
@@ -50,52 +45,29 @@ class App extends Component {
             <Link className="logo" to={"#"}>
               Roger's Resume
             </Link>
-            <ul
-              className={"main-nav " + (this.state.active ? "active" : "")}
-              id="js-menu"
-            >
+            <ul className={"main-nav " + (this.state.active ? "active" : "")} id="js-menu">
               <li>
-                <Link
-                  className="nav-links active"
-                  to={"/"}
-                  onClick={this.toggleActiveNavBar}
-                >
+                <Link className="nav-links active" to={"/"} onClick={this.toggleActiveNavBar}>
                   Home
                 </Link>
               </li>
               <li>
-                <Link
-                  className="nav-links active"
-                  to={"/about#"}
-                  onClick={this.toggleActiveNavBar}
-                >
+                <Link className="nav-links active" to={"/about#"} onClick={this.toggleActiveNavBar}>
                   About
                 </Link>
               </li>
               <li>
-                <Link
-                  className="nav-links active"
-                  to={"/tech-stack#"}
-                  onClick={this.toggleActiveNavBar}
-                >
+                <Link className="nav-links active" to={"/tech-stack#"} onClick={this.toggleActiveNavBar}>
                   Tech Stack
                 </Link>
               </li>
               <li>
-                <Link
-                  className="nav-links active"
-                  to={"/projects#"}
-                  onClick={this.toggleActiveNavBar}
-                >
+                <Link className="nav-links active" to={"/projects#"} onClick={this.toggleActiveNavBar}>
                   Projects
                 </Link>
               </li>
               <li>
-                <Link
-                  className="nav-links active"
-                  to={"/documents#"}
-                  onClick={this.toggleActiveNavBar}
-                >
+                <Link className="nav-links active" to={"/documents#"} onClick={this.toggleActiveNavBar}>
                   Documents
                 </Link>
               </li>

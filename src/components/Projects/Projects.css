@@ -1,5 +1,4 @@
 .projectsContainer {
-  background-color: blue;
   width: 600px;
   margin: 0 auto;
   text-align: center;
@@ -26,6 +25,9 @@
   outline: none;
   border-radius: 5px;
 }
+.ActiveAccordion {
+  background-color: #d699ff9d;
+}
 
 .AccordionPanel {
   padding: 0 18px;
@@ -37,10 +39,19 @@
   border-bottom-left-radius: 5px;
   margin-top: -5px;
 }
+
+.AccordionPanel strong {
+  color: #9906fb;
+}
 .Stretched {
+  position: relative;
   transition: visibility 2s ease-out !important;
   height: auto;
   visibility: visible;
+}
+
+.Stretched .ProjectsAccordion {
+  background-color: #9906fb;
 }
 
 @media screen and (max-width: 700px) {
