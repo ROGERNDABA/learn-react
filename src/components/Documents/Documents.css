@@ -1,6 +1,19 @@
 .DocumentBody {
-    margin: 0 auto;
-    text-align: center;
-    /* background-color: red; */
-    display: table;
+  margin: 0 auto;
+  text-align: center;
+  width: 700px;
+  display: table;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.react-pdf__Page__canvas {
+  width: 100% !important;
+  height: auto !important;
+}
+
+@media screen and (max-width: 700px) {
+  .DocumentBody {
+    width: auto;
+  }
 }
