@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from "./components/About/About";
 import Home from "./components/Home/Home";
 import TechStack from "./components/TechStack/TechStack";
-import MenuIcon from "./logo.svg";
 import Documents from "./components/Documents/Documents";
 import Projects from "./components/Projects/Projects";
 
@@ -39,7 +38,7 @@ class App extends Component {
           <nav className="navbar">
             <span className="navbar-toggle" id="js-navbar-toggle" onClick={this.toggleActiveNavBar}>
               <i>
-                <img src={MenuIcon} alt="" height="20" />
+                <img src="/menubars.svg" alt="" height="20" />
               </i>
             </span>
             <Link className="logo" to={"#"}>
